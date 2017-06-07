@@ -1,0 +1,34 @@
+{
+  "name": "@superflycss/task-clean",
+  "version": "1.0.0",
+  "description": "Deletes the target folder",
+  "main": "src/main/js/index.js",
+  "scripts": {
+    "update": "ncu -a && npm i",
+    "clean": "gulp clean",
+    "build": "npm run clean && gulp build:css",
+    "test": "npm run build && gulp test:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superflycss/task-clean.git"
+  },
+  "keywords": [
+    "clean",
+    "superflycss",
+    "pli",
+    "css",
+    "workflow",
+    "gulp"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superflycss/task-clean/issues"
+  },
+  "homepage": "https://github.com/superflycss/task-clean#readme",
+  "dependencies": {
+    "del": "^2.2.2",
+    "@superflycss/pli": "^1.0.0"
+  }
+}
