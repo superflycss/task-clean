@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/task-clean",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deletes the target folder",
   "main": "src/main/js/index.js",
   "scripts": {
