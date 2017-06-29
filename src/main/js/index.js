@@ -9,6 +9,6 @@ var gulp = require('gulp');
 var PLI = require('@superflycss/pli');
 
 gulp.task('clean', function(cb) {
-  return del([PLI.TARGET], cb);
+  del([PLI.TARGET], cb);
   return del([PLI.DEPLOY], cb);
 });

@@ -1,7 +1,7 @@
 {
   "name": "@superflycss/task-clean",
-  "version": "1.0.1",
-  "description": "Deletes the target folder",
+  "version": "1.0.2",
+  "description": "Deletes the target and deploy folders",
   "main": "src/main/js/index.js",
   "scripts": {
     "update": "ncu -a && npm i",
