@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/superflycss/task-clean#readme",
   "dependencies": {
-    "del": "^2.2.2",
+    "del": "^3.0.0",
     "@superflycss/pli": "^1.0.0"
   }
 }
